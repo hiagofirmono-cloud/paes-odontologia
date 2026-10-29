@@ -9,7 +9,7 @@
 <meta property="og:description" content="Ortodontia, clareamento e cuidado para toda a família. Agende pelo WhatsApp.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <!-- SEO local: dados estruturados -->
 <script type="application/ld+json">
@@ -30,16 +30,16 @@
   --paper:#EFEBE3; --paper-2:#F7F4EE; --ink:#14161A; --muted:#5E6470;
   --navy:#0E2A47; --navy-2:#163A5F; --blue:#3E7CB8; --sky:#9CC3E8;
   --line:rgba(20,22,26,.12); --r:18px;
-  --serif:"Instrument Serif", Georgia, serif;
-  --sans:"Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  --mono:"JetBrains Mono", ui-monospace, monospace;
+  --serif:"Sora", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --sans:"Sora", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --mono:"Sora", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:1160px;margin:0 auto;padding:0 24px}
-em{font-family:var(--serif);font-style:italic;color:var(--blue);font-weight:400}
+em{font-family:var(--serif);font-style:normal;color:var(--blue);font-weight:inherit}
 
 /* faixa de prévia */
 .preview{background:var(--ink);color:#d9d9d9;font:500 11px/1 var(--mono);letter-spacing:.06em;text-align:center;padding:9px 16px;text-transform:uppercase}
@@ -75,7 +75,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .hero .pill{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(8px)}
 .hero .pill i{background:var(--sky)}
 .hero em{color:var(--sky)}
-h1{font-family:var(--serif);font-weight:400;font-size:clamp(48px,7vw,92px);line-height:.95;letter-spacing:-.02em;margin:22px 0 22px}
+h1{font-family:var(--serif);font-weight:600;font-size:clamp(40px,5.6vw,76px);line-height:1.02;letter-spacing:-.04em;margin:22px 0 22px}
 .lead{font-size:18px;color:var(--muted);max-width:30em}
 .hero .lead{color:rgba(255,255,255,.78)}
 .cta-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px;margin-top:32px}
@@ -88,7 +88,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(48px,7vw,92px);line-
 /* cartão de vidro do hero */
 .glass{justify-self:end;max-width:300px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-radius:20px;padding:22px}
 .glass small{font:500 11px/1 var(--mono);letter-spacing:.1em;color:var(--sky);text-transform:uppercase}
-.glass h3{font-family:var(--serif);font-weight:400;font-size:30px;line-height:1.05;margin:10px 0 10px}
+.glass h3{font-family:var(--serif);font-weight:600;font-size:22px;line-height:1.2;letter-spacing:-.02em;margin:10px 0 10px}
 .glass p{font-size:14px;color:rgba(255,255,255,.75)}
 .glass .who{display:flex;align-items:center;gap:10px;margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.15);font-size:13px;color:rgba(255,255,255,.7)}
 .glass .who b{display:block;color:#fff;font-size:14px}
@@ -99,7 +99,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(48px,7vw,92px);line-
 .svc-box{background:radial-gradient(90% 120% at 0% 0%,#163A5F 0%,#0E2A47 50%,#0A2038 100%);color:#fff;border-radius:32px;padding:72px 0}
 .svc-box .wrap{max-width:1240px;display:grid;grid-template-columns:280px 1fr;gap:40px;align-items:center}.svc-box .pill{background:rgba(156,195,232,.15);color:var(--sky)}
 .svc-box .pill i{background:var(--sky)}
-.svc-box h2{color:#fff;font-size:clamp(38px,4.2vw,54px);margin:20px 0 16px}
+.svc-box h2{color:#fff;font-size:clamp(32px,3.4vw,44px);margin:20px 0 16px}
 .svc-box em{color:var(--sky)}
 .svc-box .intro p{color:rgba(255,255,255,.7);font-size:15px;margin-bottom:28px}
 .btn-ghost{border:1px solid rgba(255,255,255,.3);color:#fff;padding:8px 8px 8px 20px}
@@ -126,7 +126,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(48px,7vw,92px);line-
 /* seções */
 section{padding:96px 0}
 .head{display:flex;justify-content:space-between;align-items:end;gap:32px;margin-bottom:44px;flex-wrap:wrap}
-h2{font-family:var(--serif);font-weight:400;font-size:clamp(38px,5vw,64px);line-height:1;letter-spacing:-.015em;max-width:12em}
+h2{font-family:var(--serif);font-weight:600;font-size:clamp(32px,4.2vw,54px);line-height:1.08;letter-spacing:-.035em;max-width:12em}
 .head p{max-width:26em;color:var(--muted)}
 
 /* cards numerados (estilo carrossel) */
@@ -137,7 +137,7 @@ h2{font-family:var(--serif);font-weight:400;font-size:clamp(38px,5vw,64px);line-
 .card h3{font:600 20px/1.2 var(--sans);letter-spacing:-.01em}
 .card .sub{font:500 11px/1.4 var(--mono);color:var(--blue);text-transform:uppercase;letter-spacing:.08em;margin:6px 0 8px}
 .card p{color:var(--muted);font-size:15px}
-.card .n{font-family:var(--serif);font-style:italic;font-size:44px;line-height:.8;color:var(--blue);opacity:.85}
+.card .n{font-family:var(--serif);font-weight:300;font-size:40px;line-height:.8;color:var(--blue);opacity:.85}
 
 /* faixa escura */
 .dark{background:var(--navy);color:#fff;border-radius:32px;margin:0 16px}
@@ -154,7 +154,7 @@ h2{font-family:var(--serif);font-weight:400;font-size:clamp(38px,5vw,64px);line-
 /* passos */
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .step{border-top:2px solid var(--ink);padding-top:18px}
-.step .n{font-family:var(--serif);font-style:italic;font-size:56px;line-height:1;color:var(--blue)}
+.step .n{font-family:var(--serif);font-weight:300;font-size:48px;letter-spacing:-.03em;line-height:1;color:var(--blue)}
 .step h3{font:600 18px/1.25 var(--sans);margin:10px 0 6px}
 .step p{color:var(--muted);font-size:15px}
 
@@ -164,10 +164,10 @@ h2{font-family:var(--serif);font-weight:400;font-size:clamp(38px,5vw,64px);line-
 .photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;border-radius:28px;background:var(--paper-2)}
 /* selo encaixado no canto da foto */
 .seal{position:absolute;right:-14px;bottom:-14px;width:150px;padding:20px 14px;border-radius:24px;background:var(--navy);color:#fff;text-align:center;border:10px solid var(--paper);box-shadow:0 20px 40px -20px rgba(14,42,71,.6)}
-.seal b{display:block;font-family:var(--serif);font-weight:400;font-size:40px;line-height:1}
+.seal b{display:block;font-family:var(--serif);font-weight:600;font-size:34px;letter-spacing:-.03em;line-height:1}
 .seal span{display:block;font-size:12px;line-height:1.3;color:rgba(255,255,255,.7);margin-top:6px}
 .doc .num{display:block;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px}
-.doc h2{font-size:clamp(36px,4.4vw,56px);max-width:none}
+.doc h2{font-size:clamp(32px,3.8vw,48px);max-width:none}
 .doc p.lead{margin-top:20px;font-size:16px}
 .doc p.lead + p.lead{margin-top:12px}
 .checks{display:grid;grid-template-columns:1fr 1fr;gap:14px 24px;margin-top:28px;padding-top:24px;border-top:1px solid var(--line);list-style:none}
@@ -180,7 +180,7 @@ h2{font-family:var(--serif);font-weight:400;font-size:clamp(38px,5vw,64px);line-
 .mapbox::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px) 0 0/34px 34px,linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px) 0 0/34px 34px}
 .mapbox>*{position:relative}
 .pin{width:46px;height:46px;border-radius:50%;background:var(--blue);display:grid;place-items:center;box-shadow:0 0 0 10px rgba(62,124,184,.2)}
-.mapbox h3{font-family:var(--serif);font-weight:400;font-size:40px;line-height:1.05;margin:22px 0 6px}
+.mapbox h3{font-family:var(--serif);font-weight:600;font-size:30px;line-height:1.15;letter-spacing:-.03em;margin:22px 0 6px}
 .mapbox p{color:rgba(255,255,255,.65)}
 .contact{display:grid;gap:14px}
 .contact .card{grid-template-columns:auto 1fr}
@@ -229,7 +229,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   .glass{display:none}
   .checks{grid-template-columns:1fr}
   .seal{width:124px;padding:16px 10px;right:-6px}
-  .seal b{font-size:32px}
+  .seal b{font-size:28px}
   nav .btn{padding:10px 14px;font-size:13px}
 }
 @media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
